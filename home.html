@@ -35,7 +35,8 @@
 
         <div class="divider"></div>
         <!-- forms -->
-        <div class="card bg-base-100 w-full max-w-sm shrink-0 shadow-xl ">
+         <!--  money -->
+        <!-- <div class="card  bg-base-100 w-full max-w-sm shrink-0 shadow-xl ">
           <form class="card-body">
             <div class="form-control">
               <label class="label">
@@ -56,7 +57,56 @@
               <button id="btn-add-money" class="btn btn-primary">Add Money</button>
             </div>
           </form>
+        </div> -->
+
+        <!-- add money -->
+        <div class="card hidden bg-base-100 w-full max-w-sm shrink-0 shadow-xl ">
+          <form class="card-body">
+            <div class="form-control">
+              <label class="label">
+                <span class="label-text">Add Money</span>
+              </label>
+              <input id="input-add-money" type="text" placeholder="Amount" class="input input-bordered" required />
+            </div>
+            <div class="form-control">
+              <label class="label">
+                <span class="label-text">Pin</span>
+              </label>
+              <input id="input-add-pin" type="password" autocomplete="off" placeholder="Pin" class="input input-bordered" required />
+              <label class="label">
+                <a href="#" class="label-text-alt link link-hover">Forgot Pin?</a>
+              </label>
+            </div>
+            <div class="form-control mt-6">
+              <button id="btn-add-money" class="btn btn-primary">Add Money</button>
+            </div>
+          </form>
         </div>
+
+        <!-- cash out  -->
+         <div class="card bg-base-100 w-full max-w-sm shrink-0 shadow-xl ">
+          <form class="card-body">
+            <div class="form-control">
+              <label class="label">
+                <span class="label-text">Cash Out</span>
+              </label>
+              <input id="input-cash-out"  type="text" placeholder="Amount" class="input input-bordered" required />
+            </div>
+            <div class="form-control">
+              <label class="label">
+                <span class="label-text">Pin</span>
+              </label>
+              <input id="input-cash-out-pin" type="password" autocomplete="off" placeholder="Pin" class="input input-bordered" required />
+              <label class="label">
+                <a href="#" class="label-text-alt link link-hover">Forgot Pin?</a>
+              </label>
+            </div>
+            <div class="form-control mt-6">
+              <button id="btn-cash-money" class="btn btn-primary">Cash Out</button>
+            </div>
+          </form>
+        </div> 
+     
 
       </div>
     </div>
@@ -78,6 +128,17 @@
   <!-- <script src="hometwo.js"></script> -->
   <script src="utilities.js"></script>
   <script src="addmoney.js"></script>
+  <script src="cashout.js"></script>
     
 </body>
 </html>
+
+
+
+
+
+
+
+
+
+
