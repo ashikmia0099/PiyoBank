@@ -21,3 +21,13 @@ function getTextElement(Id){
     return textNumber;
 
 }
+
+
+
+function ShowSectionbyId(id){
+    document.getElementById('add-money-forms').classList.add('hidden');
+    document.getElementById('cash-out-forms').classList.add('hidden');
+    document.getElementById('transaction-section').classList.add('hidden');
+
+    document.getElementById(id).classList.remove('hidden');
+}

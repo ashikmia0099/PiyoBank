@@ -29,8 +29,9 @@
         <div class="divider"></div>
        <!-- user action button -->
         <div>
-          <button class="btn btn-lg">Add Money</button>
-          <button class="btn btn-lg">Cash Out</button>
+          <button id="show-add-money-forms" class="btn btn-lg">Add Money</button>
+          <button id="show-cash-out-forms" class="btn btn-lg">Cash Out</button>
+          <button id="transaction" class="btn btn-lg">Transaction</button>
         </div>
 
         <div class="divider"></div>
@@ -60,7 +61,7 @@
         </div> -->
 
         <!-- add money -->
-        <div class="card hidden bg-base-100 w-full max-w-sm shrink-0 shadow-xl ">
+        <div id="add-money-forms" class="card hidden bg-base-100 w-full max-w-sm shrink-0 shadow-xl ">
           <form class="card-body">
             <div class="form-control">
               <label class="label">
@@ -84,7 +85,7 @@
         </div>
 
         <!-- cash out  -->
-         <div class="card bg-base-100 w-full max-w-sm shrink-0 shadow-xl ">
+         <div id="cash-out-forms" class="card bg-base-100 w-full max-w-sm shrink-0 shadow-xl ">
           <form class="card-body">
             <div class="form-control">
               <label class="label">
@@ -106,6 +107,11 @@
             </div>
           </form>
         </div> 
+
+        <!-- transaction histrory -->
+         <div id="transaction-section" class="">
+          <h1 class="text-3xl">Transaction history</h1>
+         </div>
      
 
       </div>
@@ -129,6 +135,7 @@
   <script src="utilities.js"></script>
   <script src="addmoney.js"></script>
   <script src="cashout.js"></script>
+  <script src="futures.js"></script>
     
 </body>
 </html>
